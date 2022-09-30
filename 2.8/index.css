@@ -1,0 +1,41 @@
+
+
+body{
+  background-color: white;
+  display: flex;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+section{
+background-color: aqua;
+}
+
+.lorem{
+  background-color: #A9A9A9;
+}
+
+ .leftbar{
+  display: flex;
+  flex-direction: column;
+  min-width: 200px;
+
+} 
+
+.leftlist{
+  background-color: bisque;
+  height: 85px;
+}
+
+footer{
+  position:fixed;
+  background-color: limegreen;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 70px;
+
+}
