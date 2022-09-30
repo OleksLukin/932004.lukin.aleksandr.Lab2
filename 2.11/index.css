@@ -1,0 +1,12 @@
+.container{
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: green;
+}
+
+.lorem {
+  width: 100%;
+  background-color: aqua;
+}
+
