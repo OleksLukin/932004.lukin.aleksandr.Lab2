@@ -5,12 +5,13 @@
 body{
   padding: 0px;
   margin: 0px;
+  font-family: "Times New Roman", Times, serif;
 }
 
 header{
+
   background-color: #E8E8E8;
   height: 80px;
-
   padding-left: 10px;
   padding-top: 5px;
 }
