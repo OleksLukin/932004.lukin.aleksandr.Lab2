@@ -1,0 +1,48 @@
+.container{
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px green;
+  height: 100%;
+}
+
+.lorem{
+  background-color: #A9A9A9;
+}
+
+.leftbar{
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+} 
+
+.leftlist{
+  width: 476px;
+  background-color: bisque;
+  height: 85px;
+}
+
+@media (max-width: 600px){
+.container{
+  flex-direction: column;
+}
+
+.leftlist{
+  background-color: bisque;
+  width: 100%;
+  display: flex;
+  height: 15px;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.leftlist ul li {
+  display: inline-block;
+}
+
+.lorem{
+  width: 100%;
+  height: 100%;
+}
+}
