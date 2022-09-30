@@ -1,0 +1,42 @@
+.container{
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px green;
+  height: 100%;
+}
+
+.lorem{
+  background-color: #A9A9A9;
+  margin-right: 5px;
+}
+
+.leftbar{
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+  margin-right: 4px;
+} 
+
+.leftlist{
+  width: 476px;
+  background-color: bisque;
+  height: 85px;
+}
+
+@media (max-width: 600px){
+.container{
+  flex-direction: column;
+}
+
+.leftlist{
+  width: 140px;
+}
+
+.lorem{
+  left: 0;
+  margin: 0;
+  width: 360px;
+  height: 100%;
+}
+}
