@@ -1,0 +1,57 @@
+.container{
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  border: solid 1px green;
+  height: 100%;
+}
+
+.lorem{
+  background-color: #A9A9A9;
+}
+
+.leftbar{
+  background-color: aqua;
+  display: flex;
+  flex-direction: column;
+} 
+
+.leftlist{
+  width: 476px;
+  background-color: bisque;
+  height: 85px;
+}
+
+img{
+  float: right;
+  width: 713px;
+  height: 630px;
+}
+
+.lorembot{
+clear: right;
+}
+
+@media (max-width: 600px){
+.container{
+   width: 100%;
+}
+
+.lorem{
+  left: 0;
+  margin: 0;
+  width: auto;
+  height: 100%;
+}
+
+.lorembot{
+clear: none;
+}
+
+img{
+  height: 160px;
+  width: 180px;
+}
+
+.leftlist{
+  width: 140px;
